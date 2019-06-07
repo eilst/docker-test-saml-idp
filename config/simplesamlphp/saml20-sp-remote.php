@@ -5,8 +5,8 @@
  * See: https://simplesamlphp.org/docs/stable/simplesamlphp-reference-sp-remote
  */
 
-$metadata['http://10.5.0.6:8069/metadata/'] = array (
-  'entityid' => 'http://10.5.0.6:8069/metadata/',
+$metadata['http://10.5.0.6:9999/metadata/'] = array (
+  'entityid' => 'http://10.5.0.6:9999/metadata/',
   'description' => 
   array (
     'en' => 'Savoir-faire Linux',
@@ -40,7 +40,7 @@ $metadata['http://10.5.0.6:8069/metadata/'] = array (
     0 => 
     array (
       'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST',
-      'Location' => 'http://10.5.0.6:8069/auth_saml/signin',
+      'Location' => 'http://10.5.0.6:9999/auth_saml/signin',
       'index' => 0,
       'isDefault' => true,
     ),
